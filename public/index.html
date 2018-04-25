@@ -3,41 +3,27 @@
   <head>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>FEC Demo</title>
+    <link rel="stylesheet" href="http://localhost:3001/styles.css">
+    <link rel="stylesheet" href="http://localhost:3002/styles.css">
+    <link rel="stylesheet" href="http://localhost:3003/styles.css">
+    <link rel="stylesheet" href="http://localhost:3004/styles.css">
+    <link rel="stylesheet" href="http://localhost:3006/styles.css">
+    <title>NotAirBnB</title>
   </head>
   <body>
     <div id="Summary"></div>
     <div id="Navbar"></div>
     <div id="Campaign"></div>
-    <div id="Updates"></div>
-    <div id="Comments"></div>
-    <div id="Community"></div>
+    <div id="Updates" class="hidden"></div>
+    <div id="Comments" class="hidden"></div>
+    <div id="Community" class="hidden"></div>
     <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="http://localhost:3001/bundle.js"></script>
+    <script src="http://localhost:3002/bundle.js"></script>
+    <script src="http://localhost:3003/bundle.js"></script>
     <script src="http://localhost:3004/bundle.js"></script>
     <script src="http://localhost:3005/bundle.js"></script>
-    <!-- <script src="http://localhost:3002/app.js"></script>
-    <script src="http://localhost:3003/app.js"></script>
-    <script src="http://localhost:3004/app.js"></script> -->
-    <!-- see: https://reactjs.org/docs/react-without-jsx.html -->
-    <script>
-      // ReactDOM.render(
-      //   React.createElement(App),
-      //   document.getElementById('Updates')
-      // );
-      // ReactDOM.render(
-      //   React.createElement(CountDown),
-      //   document.getElementById('CountDown')
-      // );
-      // ReactDOM.render(
-      //   React.createElement(Related),
-      //   document.getElementById('Related')
-      // );
-      // ReactDOM.render(
-      //   React.createElement(Reviews),
-      //   document.getElementById('Reviews')
-      // );
-    </script>
+    <script src="http://localhost:3006/bundle.js"></script>
   </body>
 </html>
