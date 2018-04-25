@@ -1,5 +1,5 @@
 {
-  "name": "mic proxy server",
+  "name": "mic-proxy-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
